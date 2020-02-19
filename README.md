@@ -2,9 +2,11 @@ The original Cygnus theme is really nice but I wanted something that more closel
 Besides the color changes the most noteable difference is a tweak of the layout of the marquee and coverart so it won't overlap with videos and has a more appealing (IMO) centered layout.
 
 To install simply ssh into RetroPie and run the following commands:
-`mkdir -p ~/.emulationstation/themes`
-`cd ~/.emulationstation/themes`
-`git clone --depth=1 https://github.com/parker-hemphill/es-theme-super_cygnus.git super_cygnus`
+```
+mkdir -p ~/.emulationstation/themes
+cd ~/.emulationstation/themes
+git clone --depth=1 https://github.com/parker-hemphill/es-theme-super_cygnus.git super_cygnus
+```
 
 ### Super Cygnus theme config file  
 There are two files included below by the config.xml file, one is a colorset, the other is a template.
