@@ -19,7 +19,8 @@ mono.xml               <--- This is a black and grey colorscheme. Same as origin
 terminal.xml           <--- This is a green colorscheme. Same as original.
 
 #### Templates  
-cygnus.xml             <--- Slight changes to layout of marquee and coverart from original. **Default**
+cygnus.xml             <--- Slight changes to layout of marquee and coverart from original. 
+noboxart.xml           <--- Same as cygnus.xml but without boxart **Default**
 nometa.xml             <--- No metadata, all text except gamelist removed. Same as original.
 simpleart.xml          <--- Large art, no overlayed boxart or marquee images. Same as original.
 simpleart-nometa.xml   <--- Minimal theme with just a gamelist and large art. Same as original.
