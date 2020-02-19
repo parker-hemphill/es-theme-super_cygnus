@@ -15,6 +15,7 @@ terminal.xml           <--- This is a green colorscheme
 Templates
 ---------
 cygnus.xml             <--- All bells & whistles. Lots of metadata, lots of art.  Tweaked layout from original
+noboxart.xml           <--- Same as cygnus template but without boxart
 nometa.xml             <--- No metadata, all text except gamelist removed
 simpleart.xml          <--- Large art, no overlayed boxart or marquee images
 simpleart-nometa.xml   <--- Minimal theme with just a gamelist and large art
@@ -24,5 +25,5 @@ simpleart-nometa.xml   <--- Minimal theme with just a gamelist and large art
 <theme>
     <formatVersion>4</formatVersion>
     <include>./_res/colorsets/super_cygnus.xml</include>
-    <include>./_res/templates/cygnus.xml</include>
+    <include>./_res/templates/noboxart.xml</include>
 </theme>

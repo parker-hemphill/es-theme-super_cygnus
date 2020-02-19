@@ -1,0 +1,195 @@
+<theme>
+    <formatVersion>4</formatVersion>
+
+    <view name="basic, detailed, video">
+        <image name="gamelist-matte" extra="true">
+            <path>./../images/white.png</path>
+            <origin>0 0</origin>
+            <pos>0.02 0.164</pos>
+            <size>0.42 0.405</size>
+        </image>
+        <textlist name="gamelist">
+            <fontPath>./../fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+            <pos>0.02 0.164</pos>
+            <size>0.42 0.405</size>
+            <fontSize>0.025</fontSize>
+            <lineSpacing>1.45</lineSpacing>
+            <horizontalMargin>0.015</horizontalMargin>
+            <alignment>left</alignment>
+            <forceUppercase>False</forceUppercase>
+        </textlist>
+        <image name="md_kidgame">
+            <pos>0.02 0.167</pos>
+            <path>./../images/kid.svg</path>
+            <maxSize>32 32</maxSize>
+            <origin>0.5 0.5</origin>
+        </image>
+        <image name="md_favorite">
+            <pos>0.02 0.150</pos>
+            <path>./../images/favorite.svg</path>
+            <maxSize>32 32</maxSize>
+            <origin>0.5 0.5</origin>
+        </image>
+    </view>
+
+    <view name="basic">
+        <image name="overlay" extra="true">
+            <origin>0.5 0.5</origin>
+            <pos>0.715 0.55</pos>
+            <maxSize>0.51 0.7</maxSize>
+        </image>
+
+        <image name="gamelist-matte" extra="true">
+            <size>0.4 0.7742</size>
+        </image>
+
+        <textlist name="gamelist">
+            <size>0.4 0.7742</size>
+        </textlist>
+    </view>
+
+    <view name="detailed, video">
+    <!-- Metadata -->
+        <text name="md_lbl_players">
+            <fontSize>0.024</fontSize>
+            <forceUppercase>True</forceUppercase>
+            <size>0 0</size>
+        </text>
+
+        <text name="md_players, md_genre, md_developer, md_publisher">
+            <fontSize>0.024</fontSize>
+            <size>0 0</size>
+            <forceUppercase>True</forceUppercase>
+        </text>
+
+        <datetime name="md_releasedate, md_lastplayed">
+            <fontSize>0.024</fontSize>
+            <forceUppercase>True</forceUppercase>
+        </datetime>
+
+        <rating name="md_rating">
+            <size>0.095 0</size>
+            <filledPath>./../images/star_filled_spacing.svg</filledPath>
+            <unfilledPath>./../images/star_hollow_spacing.svg</unfilledPath>
+        </rating>
+        <image name="md_kidgame">
+            <pos>0.02 0.167</pos>
+            <path>./../images/kid.svg</path>
+            <maxSize>32 32</maxSize>
+            <origin>0.5 0.5</origin>
+        </image>
+        <image name="md_favorite">
+            <pos>0.02 0.150</pos>
+            <path>./../images/favorite.svg</path>
+            <maxSize>32 32</maxSize>
+            <origin>0.5 0.5</origin>
+        </image>
+
+        <text name="md_description">
+            <fontSize>0.022</fontSize>
+        </text>
+
+        <text name="md_lbl_rating, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_publisher, md_lbl_genre, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate">
+            <fontPath>./../fonts/AdobeBlank.ttf</fontPath>
+            <pos>0 0</pos>
+            <size>0 0</size>
+        </text>
+
+    <!-- Description -->
+        <image name="description-matte" extra="true">
+            <path>./../images/white.png</path>
+            <origin>0 0</origin>
+            <pos>0.02 0.6409</pos>
+            <size>0.42 0.22</size>
+        </image>
+        <image name="description-matteh" extra="true">
+            <path>./../images/white.png</path>
+            <origin>0.0 0.0</origin>
+            <pos>0.02 0.605</pos>
+            <size>0.42 0.035</size>
+        </image>
+        <image name="description-mattes" extra="true">
+            <path>./../images/white.png</path>
+            <origin>0.0 0.0</origin>
+            <pos>0.02 0.855</pos>
+            <size>0.42 0.070</size>
+        </image>
+
+        <text name="md_description">
+            <fontPath>./../fonts/TitilliumWeb-Regular.ttf</fontPath>
+            <fontSize>0.019</fontSize>
+            <lineSpacing>1.55</lineSpacing>
+            <pos>0.0245 0.655</pos>
+            <size>0.415 0.195</size>
+        </text>
+
+        <!-- Metadata -->
+
+            <!-- Limit the length of the metadata -->
+            <text name="md_genre, md_developer, md_publisher, md_lastplayed, md_rating, md_players, md_releasedate">
+                <size>0.3 0.023</size>
+            </text>
+
+            <datetime name="md_lastplayed">
+                <fontPath>./../fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+                <pos>0.035 0.610</pos>
+            </datetime>
+            <rating name="md_rating">
+                <pos>0.18 0.611</pos>
+            </rating>
+            <text name="md_lbl_players">
+                <fontPath>./../fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+                <pos>0.30 0.605</pos>
+            </text>
+            <text name="md_players">
+                <fontPath>./../fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+                <pos>0.37 0.610</pos>
+            </text>
+            <text name="md_genre">
+                <fontPath>./../fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+                <alignment>left</alignment>
+                <pos>0.02 0.898</pos>
+            </text>
+            <text name="md_developer">
+                <fontPath>./../fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+                <alignment>left</alignment>
+                <pos>0.02 0.863</pos>
+            </text>
+            <datetime name="md_releasedate">
+                <fontPath>./../fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+                <pos>0.357 0.898</pos>
+            </datetime>
+
+    </view>
+
+    <view name="detailed">
+        <image name="md_image">
+            <origin>0.5 0.5</origin>
+            <pos>0.70 0.55</pos>
+            <maxSize>0.55 0.55</maxSize>
+        </image>
+    </view>
+
+<feature supported="video">
+
+    <view name="video">
+         <image name="md_marquee">
+            <pos>0.55 0.25</pos>
+            <origin>0 0.5</origin>
+            <maxSize>0.2 0.2</maxSize>
+			<zIndex>40</zIndex>
+        </image>
+       <video name="md_video">
+           <origin>0.5 0.5</origin>
+            <pos>0.8 0.60</pos>
+            <maxSize>0.45 0.45</maxSize>
+            <delay>0.01</delay>
+            <default>./../images/static.mp4</default>
+            <showSnapshotNoVideo>true</showSnapshotNoVideo>
+            <showSnapshotDelay>false</showSnapshotDelay>
+			<zIndex>30</zIndex>
+        </video>
+    </view>
+</feature>
+
+</theme>
